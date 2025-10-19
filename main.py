@@ -135,17 +135,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # print("Loaded sentiment analysis model.")
-    # target_comments = [
-    #     "コメント欄見に来たらこっちの方が面白かった🤣",
-    #     "こんな作品を世に出せる勇気に拍手👏",
-    #     "逆にここまで外せるの、天才しかできませんよ。",
-    #     "自動販売機の補充動画のほうが見応えあった。",
-    #     "死ね"
-    # ]
-    # for comment in target_comments:
-    #     results = classifier(comment, top_k=None)
-    #     print(f"コメント: {comment}")
-    #     for result in results:
-    #         print(f"    ラベル: {result['label']}, スコア: {round(result['score'], 4)}")
     main()
